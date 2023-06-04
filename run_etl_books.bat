@@ -1,0 +1,1 @@
+C:\kibana\logstash-8.7.0\bin\logstash.bat  -f C:\Users\Ever\BigData\bigdata\laboratorio\elastic\logstash\etl_books.conf
