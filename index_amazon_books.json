@@ -51,13 +51,28 @@ PUT /amazon_books
           }
         },        
         "price": {
-          "type": "keyword"
+          "type": "short",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
         },
         "reviewScore": {
-            "type": "keyword"
+          "type": "short",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
         },
         "reviewTime": {
-          "type": "keyword"
+          "type": "short",
+          "fields": {
+            "keyword": {
+              "type": "keyword"
+            }
+          }
         },
         "reviewSummary": {
           "type": "keyword"
