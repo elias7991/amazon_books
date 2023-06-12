@@ -67,7 +67,10 @@ PUT /amazon_books
           }
         },
         "reviewTime": {
-          "type": "short",
+          "date": {
+            "type":   "date",
+            "format": "strict_date_optional_time||epoch_second"
+          },
           "fields": {
             "keyword": {
               "type": "keyword"
